@@ -12,7 +12,7 @@ static const int systraypinningfailfirst =
           display systray on the last monitor*/
 static const int showsystray = 1; /* 0 means no systray */
 static const int showbar = 1;     /* 0 means no bar */
-static const int gappx = 6;       /* 0 means no gaps */
+static const int gappx = 10;       /* 0 means no gaps */
 static const int topbar = 1;      /* 0 means bottom bar */
 static const char *fonts[] = {"monospace:size=10"};
 static const char dmenufont[] = "monospace:size=10";

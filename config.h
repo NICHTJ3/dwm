@@ -12,7 +12,7 @@ static const int systraypinningfailfirst =
           display systray on the last monitor*/
 static const int showsystray = 1; /* 0 means no systray */
 static const int showbar = 1;     /* 0 means no bar */
-static const int gappx = 10;       /* 0 means no gaps */
+static const int gappx = 10;      /* 0 means no gaps */
 static const int topbar = 1;      /* 0 means bottom bar */
 static const char *fonts[] = {"monospace:size=10"};
 static const char dmenufont[] = "monospace:size=10";
@@ -50,7 +50,7 @@ static const int resizehints =
 static const Layout layouts[] = {
     /* symbol     arrange function */
     {"[T]", tile}, /* first entry is default */
-    {"[F]", NULL},  /* no layout function means floating behavior */
+    {"[F]", NULL}, /* no layout function means floating behavior */
     {"[M]", monocle},
 };
 
@@ -74,6 +74,7 @@ static Key keys[] = {
     {MODKEY, XK_j, focusstack, {.i = +1}},
     {MODKEY, XK_k, focusstack, {.i = -1}},
     {MODKEY, XK_i, incnmaster, {.i = +1}},
+    {MODKEY | ShiftMask, XK_j, zoom, {0}},
     {MODKEY, XK_d, incnmaster, {.i = -1}},
     {MODKEY, XK_h, setmfact, {.f = -0.05}},
     {MODKEY, XK_l, setmfact, {.f = +0.05}},

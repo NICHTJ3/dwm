@@ -14,7 +14,7 @@ static const int showsystray = 1; /* 0 means no systray */
 static const int showbar = 1;     /* 0 means no bar */
 static const int gappx = 10;      /* 0 means no gaps */
 static const int topbar = 1;      /* 0 means bottom bar */
-static const char *fonts[] = {"monospace:size=10"};
+static const char *fonts[] = {"monospace:size=12"};
 static const char dmenufont[] = "monospace:size=10";
 static const char norm_bg[] = "#2b2e3b";
 static const char norm_bd[] = "#3c4556";
